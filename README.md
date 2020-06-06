@@ -1,6 +1,6 @@
 # seatME
 
-A Simple application built in Ruby on Rails to assign you the best seat based on the availability. 
+A simple application built in Ruby on Rails to assign you the best seat based on the availability. 
 
 This app takes the following inputs:
  - seating_info -> JSON input that specifies the total seats available
@@ -16,7 +16,7 @@ Install required gems:
 
 The frontend app is built in React. You will need to install it.
 
-## Test Suite
+### Test Suite
 
     rake test
 
@@ -26,7 +26,7 @@ Start the Rails server:
 
     rails server
     
-## How to use?
+### How to use?
 
 When your server is up and running, go to localhost:3000, provide a JSON in the text area provided, also the seats to be booked. When submitting the request, you will be displayed the best seating position(s).
 
