@@ -1,0 +1,223 @@
+{
+  "seating_info":{
+    "venue": {
+        "layout": {
+            "rows": 5,
+            "columns": 5
+        }
+    },
+    "seats": {
+        "a1": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "a2": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "a3": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "a4": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "a5": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "a6": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "a7": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "a8": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "a9": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "a10": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "b1": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "b2": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "b3": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "b4": {
+            "id": "a1",
+            "row": "a",
+            "column": 1,
+            "status": "AVAILABLE"
+        },
+        "b5": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "c1": {
+            "id": "b5",
+            "row": "b",
+            "column": 5,
+            "status": "AVAILABLE"
+        },
+        "c2": {
+            "id": "b5",
+            "row": "b",
+            "column": 5,
+            "status": "AVAILABLE"
+        },
+        "c3": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "c4": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "c5": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "d1": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "d2": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "d3": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "d4": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "d5": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "e1": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "e2": {
+            "id": "a1",
+            "row": "a",
+            "column": 1,
+            "status": "AVAILABLE"
+        },
+        "e3": {
+            "id": "b5",
+            "row": "b",
+            "column": 5,
+            "status": "AVAILABLE"
+        },
+        "e4": {
+            "id": "b5",
+            "row": "b",
+            "column": 5,
+            "status": "AVAILABLE"
+        },
+        "e5": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "f1": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        },
+        "f2": {
+            "id": "a1",
+            "row": "a",
+            "column": 1,
+            "status": "AVAILABLE"
+        },
+        "f3": {
+            "id": "b5",
+            "row": "b",
+            "column": 5,
+            "status": "AVAILABLE"
+        },
+        "f4": {
+            "id": "b5",
+            "row": "b",
+            "column": 5,
+            "status": "AVAILABLE"
+        },
+        "f5": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "AVAILABLE"
+        }
+    }
+  },
+ "booking_count": 30
+}
