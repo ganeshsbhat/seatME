@@ -16,7 +16,7 @@ Install required gems:
 
 ### UI App
 
-The frontend app is React. You will need to install it.
+The frontend app is built in React. You will need to install it.
 
 ## Test Suite
 
@@ -34,7 +34,7 @@ When your server is up and running, go to localhost:3000, provide a JSON in the 
 
 A sample JSON is provided below:
 
-    {
+   ```{
       "venue": {
         "layout": {
             "rows": 10,
@@ -67,4 +67,5 @@ A sample JSON is provided below:
             "status": "AVAILABLE"
         }
       }
-    }
+   }
+   ```
