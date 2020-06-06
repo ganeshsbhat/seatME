@@ -1,7 +1,5 @@
 # seatME
 
-## Description
-
 A Simple application built in Ruby on Rails to assign you the best seat based on the availability. 
 
 This app takes the following inputs:
