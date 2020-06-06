@@ -72,12 +72,16 @@ module Seating
       # You might be wondering what if there are more than 26 rows in the request!!!
       # Well, we should throw error saying that we don't support it!
       def rows_info
-        return @rows if @rows.present?
-        @rows = {}
-        ('a'..'z').to_a.each_with_index do |alphabet, index|
-          @rows[index] = alphabet
+        @rows ||= assign_alphabet_to_rows
+      end
+
+      def assign_alphabet_to_rows
+        rows = {}.tap do |row_hash|
+          ('a'..'z').to_a.each_with_index do |alphabet, index|
+            row_hash[index] = alphabet
+          end
         end
-        @rows
+        rows
       end
 
       # Find out all the available seats from the seats provided in the input

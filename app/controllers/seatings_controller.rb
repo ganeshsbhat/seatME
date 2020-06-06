@@ -24,7 +24,9 @@ class SeatingsController < ApplicationController
   # - Request should have a valid seating information as shown in 'valid_seating_info?'
   # - Rown count should not go above 26 - As we are assigning alphabets to the row
   def validate_availability_request
+    return render json: { errors: [SEATING_DETAILS_REQUIRED] }, status: :unprocessable_entity unless params.key?(:seating_info)
     @seating_info = params[:seating_info]
+    return render json: { errors: [BOOKING_COUNT_REQUIRED] }, status: :unprocessable_entity unless params.key?(:booking_count)
     return render json: { errors: [INVALID_SEATING_MESSAGE] }, status: :unprocessable_entity unless valid_seating_info?
     return render json: { errors: [INVALID_ROW_COUNT] }, status: :unprocessable_entity unless valid_row_count?
     return render json: { errors: [SOLD_OUT_MESSAGE] }, status: :unprocessable_entity unless seats_present?

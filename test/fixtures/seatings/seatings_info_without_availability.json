@@ -1,0 +1,40 @@
+{
+    "venue": {
+        "layout": {
+            "rows": 5,
+            "columns": 5
+        }
+    },
+    "seats": {
+        "a1": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "UNAVAILABLE"
+        },
+        "a2": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "UNAVAILABLE"
+        },
+        "a3": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "UNAVAILABLE"
+        },
+        "a4": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "UNAVAILABLE"
+        },
+        "a5": {
+            "id": "h7",
+            "row": "h",
+            "column": 7,
+            "status": "UNAVAILABLE"
+        }
+    }
+}
