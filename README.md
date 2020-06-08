@@ -14,7 +14,7 @@ Install required gems:
 
 ### UI App
 
-The frontend app is built in React. You will need to install it.
+The frontend app is built in React. You will need to install it. Clone https://github.com/ganeshsbhat/seatme-react and follow the instructions. (Install it only after completing this rails app setup).
 
 ### Test Suite
 
