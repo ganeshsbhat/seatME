@@ -25,7 +25,7 @@ class SeatingsController < ApplicationController
   def validate_availability_request
     return render json: { errors: [SEATING_DETAILS_REQUIRED] }, status: 200 unless params.key?(:seating_info)
     @seating_info = params[:seating_info]
-    return render json: { errors: [BOOKING_COUNT_REQUIRED] }, status: 200 unless params.key?(:booking_count)
+    return render json: { errors: [BOOKING_COUNT_REQUIRED] }, status: 200 unless valid_booking_count?
     return render json: { errors: [INVALID_SEATING_MESSAGE] }, status: 200 unless valid_seating_info?
     return render json: { errors: [INVALID_ROW_COUNT] }, status: 200 unless valid_row_count?
     return render json: { errors: [SOLD_OUT_MESSAGE] }, status: 200 unless seats_present?
@@ -50,5 +50,10 @@ class SeatingsController < ApplicationController
   # Check if seats are provided in the request
   def seats_present?
     @seating_info['seats'].present?
+  end
+
+  # Check if booking count is valid.
+  def valid_booking_count?
+    params.key?(:booking_count) && params[:booking_count].to_i > 0
   end
 end
